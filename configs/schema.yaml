@@ -1,0 +1,21 @@
+columns:
+  age : float
+  sex : category
+  bmi : float
+  children : float
+  smoker : category
+  region : category
+  expenses : float
+
+numerical_columns:
+  - age
+  - bmi
+  - children
+  
+
+target_column: expenses
+
+categorical_columns:
+  - sex
+  - smoker
+  - region
