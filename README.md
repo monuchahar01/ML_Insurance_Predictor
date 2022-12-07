@@ -21,7 +21,7 @@ Project_description:
 
 Creating conda environment
 ```
-conda create --prefix ./ins python=3.8 -y
+conda create --prefix ./ins python=3.8 -y  
 ```
 ```
 conda activate ./ins
